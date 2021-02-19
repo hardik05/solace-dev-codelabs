@@ -1,0 +1,34 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-3921398-10",
+  "updated": "2020-07-23T17:57:29-04:00",
+  "id": "solace-battleship",
+  "duration": 130,
+  "title": "Building Battleship with TypeScript, Java and Solace PubSub+",
+  "summary": "Build Battleship, a popular board game, and learn advanced messaging techniques",
+  "source": "codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "solace",
+    "java",
+    "spring",
+    "javascript",
+    "aurelia",
+    "typescript"
+  ],
+  "tags": [
+    "",
+    "microservices",
+    "udemy",
+    "web",
+    "workshop"
+  ],
+  "feedback": "http://github.com/solacetraining/solace-battleship/issues",
+  "ga": "UA-3921398-10",
+  "url": "solace-battleship"
+}

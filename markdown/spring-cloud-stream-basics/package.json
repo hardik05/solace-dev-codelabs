@@ -1,0 +1,20 @@
+{
+  "name": "codelab-bootstrap",
+  "version": "1.0.0",
+  "description": "use nodemon to watch changes on md file, rebuild codelab on saves",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch spring-cloud-stream-basics.md --exec 'claat export spring-cloud-stream-basics.md && lsof -c claat -t | xargs kill && cd spring-cloud-stream-basics && claat serve'"
+  },
+"repository": {
+    "type": "git",
+    "url": "https://github.com/SolaceDev/solace-dev-codelabs/"
+  },
+  "keywords": [
+    "codelab"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
